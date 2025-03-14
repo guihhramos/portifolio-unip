@@ -4,8 +4,9 @@ print("Você está prestes a embarcar em uma jornada incrível...")
 # Pedir as informações do visitante
 nome = input("Qual é o seu nome viajante do tempo? ")
 
-def obter_idade():
-    while True:
+
+def obter_idade(): # Chamando a função
+    while True: # colocando uma 
         try:
             idade = int(input("Qual a sua idade? "))  # Tenta converter a entrada para inteiro
             if idade > 0:  # Verifica se a idade é positiva
